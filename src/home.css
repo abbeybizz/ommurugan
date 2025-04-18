@@ -1,34 +1,46 @@
 .logo {
-    width: 20% !important;
+  width: 20% !important;
 }
 
 .p_r_l {
-    padding: 0px 15px !important;
+  padding: 0px 15px !important;
 }
 
 .black_bg {
-    background: black !important;
-    color: white !important;
+  background: black !important;
+  color: white !important;
 }
 
 .left {
-    display: flex;
-    justify-content: start !important;
+  display: flex;
+  justify-content: start !important;
 }
 .center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .right {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
-.v_card_img{
-    width: 85% !important;
+.v_card_img {
+  width: 85% !important;
 }
 
-.none{
-    padding: 0px !important;
-    margin: 0px !important;
+.none {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.m_left {
+  margin-left: 30 px !important;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 2;
+  color: white !important;
 }
