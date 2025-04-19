@@ -39,8 +39,13 @@
 
 .overlay-text {
   position: absolute;
-  top: 25%;
-  left: 5%;
+  top: 5%;
+  left: 45%;
   z-index: 2;
-  color: white !important;
+  /* color: white !important; */
+}
+
+.home_gif{
+  width: 100% !important;
+  height: 400px !important;
 }

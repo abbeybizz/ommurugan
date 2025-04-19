@@ -7,6 +7,7 @@ import AboutUs from "./about_us";
 import Collab from "./collab";
 import Faq from "./faq";
 import Ad from "./ad";
+import Adgif from "./ad_gif"
 import "./home.css";
 
 function App() {
@@ -25,9 +26,13 @@ function App() {
         <RB.Row className="none">
           <Faq></Faq>
         </RB.Row>
-        <RB.Row className="none">&nbsp;</RB.Row>
+        {/* <RB.Row className="none">&nbsp;</RB.Row>
         <RB.Row className="none">
           <Ad></Ad>
+        </RB.Row> */}
+        <RB.Row className="none">&nbsp;</RB.Row>
+        <RB.Row className="none">
+          <Adgif></Adgif>
         </RB.Row>
       </RB.Col>
     </RB.Row>
