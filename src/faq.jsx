@@ -7,7 +7,7 @@ function App() {
     <RB.Row className="none">
       <RB.Col md={1}>&nbsp;</RB.Col>
       <RB.Col md={10}>
-        <RB.Accordion defaultActiveKey="0">
+        <RB.Accordion>
           <RB.Accordion.Item eventKey="0">
             <RB.Accordion.Header>
               {"How can I buy a appartments ?"}

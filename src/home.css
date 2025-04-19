@@ -37,15 +37,41 @@
   margin-left: 30 px !important;
 }
 
+.text_c{
+  text-align: center !important;
+}
+
 .overlay-text {
   position: absolute;
-  top: 5%;
-  left: 45%;
-  z-index: 2;
-  /* color: white !important; */
+  top: 0% !important;
+  left: 20% !important;
+  z-index: 2 !important;
+  color: #000000 !important;
 }
 
 .home_gif{
   width: 100% !important;
   height: 400px !important;
+}
+
+.jcb_gif{
+  width: 10% !important;
+  height: 100px !important;
+  top: -100px !important;
+  position: relative !important;
+  left: 50% !important;
+  animation: moveRight 5s linear infinite !important;
+}
+
+.h-0{
+  height: 0px !important;
+}
+
+@keyframes moveRight {
+  0% {
+    left: -100px; /* Start off-screen */
+  }
+  100% {
+    left: 100%; /* End off-screen on the right */
+  }
 }
