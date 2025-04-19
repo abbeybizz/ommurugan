@@ -11,8 +11,8 @@ function App() {
     <RB.Row className="none">
       <RB.Container fluid className="p-0 position-relative">
         <img className="home_gif" src={Building} alt={Building} />
-        <RB.Row className="overlay-text">
-          <RB.Col md={12}>
+        <RB.Row className="overlay-text ">
+          <RB.Col md={12} className="text_c">
             <h3>{"Reach us @"}</h3>
             <h2>
               {
